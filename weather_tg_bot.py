@@ -70,7 +70,7 @@ def webhook():
     return None
 
 
-URI = ''
+URI = '' # ngrok https
 
 if __name__ == '__main__':
     requests.get("https://api.telegram.org/bot{}/setWebhook?url={}".format(TG_TOKEN, URI))
