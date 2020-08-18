@@ -6,7 +6,7 @@ from urllib.parse import urlencode
 
 app = flask.Flask(__name__)
 
-TG_TOKEN = '1319876072:AAGi-A6oymXWSzFsJIXGgDXhEfr1thc1NmQ'
+TG_TOKEN = ''
 WEATHER_KEY = 'cd83b9fb3661155ca1fab99cdcd359a9'
 QUERY_URL = 'http://api.weatherstack.com/current'
 
